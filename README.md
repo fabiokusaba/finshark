@@ -47,14 +47,14 @@ Finalizada a configuração ao banco de dados precisamos agora rodar as nossas M
   dotnet ef database update
 ```
 
+Concluída essas etapas você poderá executar o projeto e ter acesso a página no Swagger para testar os endpoints da aplicação.
+
 - **OBS:** Em caso de uso no Visual Studio Code execute o comando abaixo.
 
 ```bash
   dotnet watch run
 ```
-
-Aproveite as funcionalidades do Swagger e teste os endpoints.
-    
+  
 ## Stack utilizada
 
 **Front-end:** React (Em desenvolvimento)
