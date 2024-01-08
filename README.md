@@ -57,8 +57,6 @@ Concluída essas etapas você poderá executar o projeto e ter acesso a página 
   
 ## Stack utilizada
 
-**Front-end:** React (Em desenvolvimento)
-
-**Back-end:** C#, .NET 8, Web API, EF Core, MVC, SQL Server
+**Back-end:** C#, .NET 8, Web API, EF Core, MVC, SQL Server, JWT
 
 
