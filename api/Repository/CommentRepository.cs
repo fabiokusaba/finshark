@@ -25,6 +25,22 @@ namespace api.Repository
             return commentModel;
         }
 
+        public async Task<Comment?> DeleteAsync(int id)
+        {
+            var commentModel = await _context.Comments.FirstOrDefaultAsync(x => x.Id == id);
+
+            if (commentModel == null)
+            {
+                return null;
+            }
+
+            _context.Comments.Remove(commentModel);
+            
+            await _context.SaveChangesAsync();
+
+            return commentModel;
+        }
+
         public async Task<List<Comment>> GeAllAsync()
         {
             return await _context.Comments.ToListAsync();
@@ -33,6 +49,11 @@ namespace api.Repository
         public async Task<Comment?> GetByIdAsync(int id)
         {
             return await _context.Comments.FindAsync(id);
+        }
+
+        public Task<Comment?> UpdateAsync(int id, Comment commentModel)
+        {
+            throw new NotImplementedException();
         }
     }
 }
