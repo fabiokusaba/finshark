@@ -84,7 +84,7 @@ namespace api.Controllers
                 return BadRequest(ModelState);
             }
 
-            var comment = await _commentRepo.UpdateAsync(id, updateDto.ToCommentFromUpdate(id));
+            var comment = await _commentRepo.UpdateAsync(id, updateDto.ToCommentFromUpdate());
 
             if (comment == null)
             {
