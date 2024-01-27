@@ -25,7 +25,6 @@ C:\Users\fabio\OneDrive\Documentos\projects\finshark\api\obj\Debug\net8.0\static
 C:\Users\fabio\OneDrive\Documentos\projects\finshark\api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.api.props
 C:\Users\fabio\OneDrive\Documentos\projects\finshark\api\obj\Debug\net8.0\staticwebassets.pack.json
 C:\Users\fabio\OneDrive\Documentos\projects\finshark\api\obj\Debug\net8.0\scopedcss\bundle\api.styles.css
-C:\Users\fabio\OneDrive\Documentos\projects\finshark\api\obj\Debug\net8.0\api.csproj.CopyComplete
 C:\Users\fabio\OneDrive\Documentos\projects\finshark\api\obj\Debug\net8.0\api.dll
 C:\Users\fabio\OneDrive\Documentos\projects\finshark\api\obj\Debug\net8.0\refint\api.dll
 C:\Users\fabio\OneDrive\Documentos\projects\finshark\api\obj\Debug\net8.0\api.pdb
@@ -142,3 +141,4 @@ C:\Users\fabio\OneDrive\Documentos\projects\finshark\api\bin\Debug\net8.0\Newton
 C:\Users\fabio\OneDrive\Documentos\projects\finshark\api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\fabio\OneDrive\Documentos\projects\finshark\api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\fabio\OneDrive\Documentos\projects\finshark\api\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\fabio\OneDrive\Documentos\projects\finshark\api\obj\Debug\net8.0\api.csproj.Up2Date
