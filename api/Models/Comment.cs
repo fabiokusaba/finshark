@@ -16,5 +16,7 @@ namespace api.Models
         public int? StockId { get; set; }
         //Navigation property -> allow us to be able to access the Stock object from the Comment object
         public Stock? Stock { get; set; }
+        public string AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
     }
 }
